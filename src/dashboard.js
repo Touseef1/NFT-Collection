@@ -2,8 +2,8 @@ import React from "react";
 import TwitterLogin from "react-twitter-login";
 import "./App.css";
 
-const CONSUMER_KEY = "lAxmxVtdriij0nsarbLr2AoRk";
-const CONSUMER_SECRET = "qInkBbN6DnOOGoOk9MRnU8tNIanNiIA3CqigC5Gworfx0kMpxS";
+const CONSUMER_KEY = "b3RZYWRiSktVcUttWk1YQ2RZbTc6MTpjaQ";
+const CONSUMER_SECRET = "UVMqyWB1Fi_Wn08RKsGJCOl9uMIoiv7fLbVjerj2sijmsr44kX";
 
 function Dashboard() {
 
@@ -24,7 +24,7 @@ function Dashboard() {
           authCallback={authHandler}
           consumerKey={CONSUMER_KEY}
           consumerSecret={CONSUMER_SECRET}
-          callbackUrl="http://localhost:3000/dashboard" 
+          callbackUrl="https://nft-collection-three-lime.vercel.app" 
           children={<button>Login with Twitter</button>}
         />
       </div>
